@@ -1,0 +1,16 @@
+<html>
+    <head></head>
+    <body>
+        <h1>Today is</h1>
+        <p id='p1'></p>
+        <script>
+            var today=new Date();
+           
+            var date=today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+            var time=today.getHours()+":"+today.getMinutes()+":"+today.getSeconds();
+            document.getElementById("p1").innerHTML= date +' '+time;
+        
+
+        </script>
+    </body>
+</html>
