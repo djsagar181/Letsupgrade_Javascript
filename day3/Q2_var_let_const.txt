@@ -1,0 +1,17 @@
+var
+1.Declares global scope
+2.var variable can be redeclared and updated within the scope.
+3.var veriable initialised as undefined.
+4.var variable can be declared without initialzed.
+
+
+let
+1.Declares block scope.
+2.let variable can not be redeclared.
+3.let can be declared without being initialzed.
+
+
+const
+1.Declares block scope.
+2.const variable can not be updated or redeclared.
+3.const must be initialzed during declaration.

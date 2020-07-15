@@ -1,0 +1,36 @@
+1.Number-
+Number will represent integer and floating numbers.
+let num=345;
+
+2.String
+A string in JavaScript must be surrounded by quotes.
+let str = "Hello";
+
+3.Boolean (logical type)
+The boolean type has only two values: true and false.
+This type is commonly used to store yes/no values: true means “yes, correct”, and false means “no, incorrect”.
+
+e.g
+let isGreater = 4 > 1;
+
+alert( isGreater ); // true (the comparison result is "yes")
+
+4.The “null” value
+The special null value does not belong to any of the types described above.
+It forms a separate type of its own which contains only the null value:
+
+let age = null;
+
+5.The “undefined” value
+The special value undefined also stands apart. It makes a type of its own, just like null.
+The meaning of undefined is “value is not assigned”.
+If a variable is declared, but not assigned, then its value is undefined
+:
+let age;
+alert(age);
+
+6.Object
+object for more complex data structures.
+
+7.Symbol
+symbol for unique identifiers.
